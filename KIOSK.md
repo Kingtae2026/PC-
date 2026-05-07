@@ -46,18 +46,8 @@
 - 충전 완료 시 관리자 화면의 해당 좌석 남은시간이 즉시 갱신
 
 **충전 통신 흐름**
-```
-충전권 선택 + 결제 완료
-    │
-    ▼  TCP 송신 (Port 9002)
-CHARGE|id|addSeconds  ──▶  서버
-    │
-    ◀──  CHARGE_OK|newRemainSeconds
-    │
-    ▼
-키오스크 화면: 남은시간 갱신 표시
-관리자 화면:  해당 좌석 remain 라벨 즉시 업데이트
-```
+
+![충전 통신 흐름도](https://github.com/user-attachments/assets/b0b167a0-0a21-4e4a-bc29-680855db4cea)
 
 ![충전 이벤트 화면](https://github.com/user-attachments/assets/a6297d47-0497-4b1c-a3f7-984d9cf188f0)
 
