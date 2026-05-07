@@ -48,10 +48,7 @@
 **충전 통신 흐름**
 
 ![충전 통신 흐름도](https://github.com/user-attachments/assets/b0b167a0-0a21-4e4a-bc29-680855db4cea)
-
-
-
-
+<br><br>
 ![충전 이벤트 화면](https://github.com/user-attachments/assets/a6297d47-0497-4b1c-a3f7-984d9cf188f0)
 
 ---
