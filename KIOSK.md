@@ -25,20 +25,7 @@
 `KioskLogin.cs` — 관리자 PC 서버(Port 9002)로 로그인을 요청합니다.
 
 **로그인 흐름**
-```
-사용자 입력 (ID / PW)
-    │
-    ▼  TCP 송신 (Port 9002)
-LOGIN|id|pw  ──▶  서버
-    │
-    ◀──  LOGIN_OK|이름|남은시간(초)
-         또는
-         LOGIN_FAIL
-    │ 성공
-    ▼
-Member_Charge 화면으로 전환 (세션 자동 저장)
-```
-
+![로그인 흐름](https://github.com/user-attachments/assets/2ab6572e-0569-4bf1-a9ec-8525c5655b3e)
 ---
 
 ### 2. 시간 충전
